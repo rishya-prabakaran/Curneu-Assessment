@@ -229,7 +229,7 @@ int main()
     generaterandomnumbers();
 
     string line;
-	ifstream pointsfile("input.txt");
+	ifstream pointsfile("points.txt");
 	if (pointsfile.is_open())
 	{
 		getline(pointsfile, line);
